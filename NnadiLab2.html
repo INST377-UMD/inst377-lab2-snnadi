@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Contact Form</title>
+
+    <style>
+        
+        body {
+            background-color: rgb(119, 244, 242);
+            font-family: fantasy;
+        }
+        input {
+            background-color: antiquewhite;
+            color: rgb(14, 5, 5);
+            font-size: 30px;
+        }
+        input[type="submit"] {
+            background-color: rgb(121, 134, 154);
+            color: rgb(14, 5, 5);
+            font-size: 30px;
+            margin-left: 10px;
+        }
+
+
+        .contactUs {
+            background-color: rgb(69, 128, 224);
+            margin-top: 100px;
+            margin-bottom: 10px;
+            margin-right: 150px;
+            margin-left: 10px;
+            font-size: 40px;
+            
+        }
+
+        h1 {
+            font-size: 50px;
+            }
+
+            h2 {
+            font-size: 20px;
+            }
+        input[type="submit"]:hover {
+            background-color: rgb(69, 128, 224);
+           font-weight: bold;
+            }
+
+         </style>
+   
+</head>
+
+<body>
+    <h1>INST377 Lab 2: Contact Me!</h1>
+    <form name="contactForm" method="get" action="ThanksLab2.html">
+        <div class="contactUs">
+            <!-- User Name Details -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <br>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" required>
+            <br>
+            <hr>
+        </div>
+        <br>
+        <hr>
+      <input type="submit" value="Submit"> 
+    </form>
+</body>
+
+</html>
